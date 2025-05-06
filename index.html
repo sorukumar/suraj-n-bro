@@ -3,51 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add more meta tags for SEO and social sharing -->
+    <meta name="description" content="Find high-quality legal drafts and documents instantly. A collection dedicated to the memory of Suraj.">
+    <meta name="keywords" content="legal drafts, legal documents, law templates, Jharkhand">
+    <meta property="og:title" content="Suraj & Bro – Find the Right Legal Draft, Fast">
+    <meta property="og:description" content="Find high-quality legal drafts and documents instantly. A collection dedicated to the memory of Suraj.">
+    <meta property="og:image" content="assets/logo.png">
+    
     <title>Suraj & Bro – Find the Right Legal Draft, Fast</title>
     <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Added weight 700 for better heading display -->
+    
     <link rel="stylesheet" href="styles.css">
-    <!-- Feather Icons CDN -->
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-content">
-        <div class="logo">
-            <img src="assets/logo.png" alt="Search App Logo">
-        </div>
-        <a href="https://jharkhandhighcourt.nic.in" class="court-link" target="_blank" aria-label="Jharkhand High Court">
-            <i data-feather="award"></i>
-        </a>
+            <a href="/" class="logo">  <!-- Made logo clickable -->
+                <img src="assets/logo.png" alt="Suraj & Bro Logo">
+            </a>
+            <div class="nav-links">  <!-- Added container for multiple links -->
+                <a href="https://jharkhandhighcourt.nic.in" class="court-link" target="_blank" rel="noopener noreferrer" aria-label="Jharkhand High Court">
+                    <i data-feather="award"></i>
+                </a>
+            </div>
         </div>
     </nav>
 
     <main class="container">
         <div class="search-header">
-            <h1>A collection of top quality Legal Drafts</h1>
-<!--             <p>Search through our collection of documents instantly</p> -->
+            <h1>A Collection of Top Quality Legal Drafts</h1>
+            <!-- Added subtitle for better context -->
+            <p class="subtitle">Search through our curated library of professional legal documents</p>
         </div>
         
         <div class="search-container">
             <div class="search-wrapper">
-                <input type="text" class="search-input" placeholder="Search documents..." autocomplete="off">
-                <span class="search-icon"><i data-feather="search"></i></span>
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    placeholder="Search for legal drafts, templates, documents..." 
+                    autocomplete="off"
+                    aria-label="Search documents"
+                >
+                <span class="search-icon" aria-hidden="true">
+                    <i data-feather="search"></i>
+                </span>
             </div>
         </div>
         
-        <div class="results"></div>
+        <div class="results" role="region" aria-live="polite"></div>
     </main>
 
     <footer>
-        <p>In loving memory of Suraj • <a href="https://github.com/sorukumar/suraj-n-bro" target="_blank">GitHub</a></p>
+        <p>In loving memory of Suraj • <a href="https://github.com/sorukumar/suraj-n-bro" target="_blank" rel="noopener noreferrer">GitHub</a></p>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.31/dist/flexsearch.bundle.js"></script>
     <script src="app.js"></script>
     <script>
-      feather.replace();
+        // Initialize Feather Icons
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+        });
     </script>
 </body>
 </html>
