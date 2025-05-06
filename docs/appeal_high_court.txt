@@ -1,0 +1,34 @@
+Title: Memorandum of Appeal to High Court
+Filename: appeal_high_court.txt
+Body:
+
+IN THE HIGH COURT OF JHARKHAND AT RANCHI
+
+Appeal No. ____ of 2025
+
+Appellant: [Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand
+
+Versus
+
+Respondent: [Name], resident of [Full Address], District – [Name], Jharkhand
+
+MEMORANDUM OF APPEAL UNDER SECTION [Relevant Section]
+
+The appellant respectfully submits as under:
+
+1. That the appellant is aggrieved by the judgment and order dated ___ passed by the [Lower Court], Ranchi in [Case No. ___].
+2. That the impugned order is bad in law and facts for the following reasons:
+   a) [State grounds of appeal in detail]
+   b) [Cite errors in law, misappreciation of evidence, etc.]
+3. That the appeal is within limitation.
+
+PRAYER
+
+It is, therefore, prayed that this Hon’ble Court may be pleased to:
+a) Set aside the impugned judgment and order dated ___;
+b) Allow the appeal with costs;
+c) Pass such other order as deemed fit.
+
+Place: Ranchi  
+Date: [Date]  
+[Signature of Advocate for Appellant]
