@@ -1,0 +1,3 @@
+Title: Getting Started with JavaScript
+Filename: doc1.txt
+Body: JavaScript is a versatile programming language primarily used for web development. It allows you to create interactive and dynamic websites. Learn about variables, functions, and control flow to begin your journey in JavaScript programming.
