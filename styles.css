@@ -62,7 +62,7 @@ body {
 }
 
 .logo img {
-    height: 48px;  /* Larger logo */
+    height: 64px;  /* Larger logo */
     width: auto;
     transition: transform 0.3s ease;
 }
