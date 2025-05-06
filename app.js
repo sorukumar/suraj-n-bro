@@ -1,4 +1,3 @@
-// app.js
 class DocumentSearch {
     constructor() {
         this.index = new FlexSearch.Document({
@@ -6,7 +5,8 @@ class DocumentSearch {
                 id: "id",
                 index: ["title", "body"],
                 store: ["title", "filename", "body"]
-            }
+            },
+            tokenize: "forward"
         });
         this.searchInput = document.querySelector('.search-input');
         this.resultsContainer = document.querySelector('.results');
@@ -17,19 +17,29 @@ class DocumentSearch {
 
     async init() {
         try {
-            // Load the index
             const response = await fetch('index.json');
             const data = await response.json();
             this.documents = data.documents;
             
-            // Add documents to the index
             this.documents.forEach(doc => this.index.add(doc));
             
-            // Set up event listeners
-            this.searchInput.addEventListener('input', this.handleSearch.bind(this));
+            this.searchInput.addEventListener('input', this.debounce(this.handleSearch.bind(this), 300));
         } catch (error) {
             console.error('Error initializing search:', error);
+            this.showError('Failed to load search index');
         }
+    }
+
+    debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
     }
 
     handleSearch(event) {
@@ -93,9 +103,17 @@ class DocumentSearch {
     clearResults() {
         this.resultsContainer.innerHTML = '';
     }
+
+    showError(message) {
+        this.resultsContainer.innerHTML = `
+            <div class="no-results">
+                <h3>Error</h3>
+                <p>${message}</p>
+            </div>
+        `;
+    }
 }
 
-// Initialize the search when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     new DocumentSearch();
 });
