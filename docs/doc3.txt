@@ -1,3 +1,0 @@
-Title: CSS Fundamentals
-Filename: doc3.txt
-Body: Cascading Style Sheets (CSS) is the language used to style web pages. Learn about selectors, properties, and values to control the visual appearance of HTML elements. Master layouts, colors, typography, and responsive design.

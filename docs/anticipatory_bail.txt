@@ -1,0 +1,35 @@
+Title: Anticipatory Bail Application
+Filename: anticipatory_bail.txt
+Body:
+
+IN THE HIGH COURT OF JHARKHAND AT RANCHI
+
+A.B.A. No. ____ of 2025
+
+In the matter of:
+[Applicant’s Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand … Applicant
+
+Versus
+
+The State of Jharkhand … Opposite Party
+
+APPLICATION FOR ANTICIPATORY BAIL UNDER SECTION 438 CrPC
+
+To,
+The Hon’ble Mr. Justice [Name], High Court of Jharkhand at Ranchi.
+
+The humble application of the applicant above named:
+
+MOST RESPECTFULLY SHOWETH:
+
+1. That the applicant apprehends arrest in connection with [FIR No. ___ dated ___, P.S. ___, District ___] under Sections ___ of the Indian Penal Code.
+2. That the applicant is innocent and has been falsely implicated due to [reason].
+3. That the applicant is a law-abiding citizen and undertakes to cooperate with the investigation.
+4. That the applicant undertakes to abide by any conditions imposed by this Hon’ble Court.
+
+PRAYER
+It is, therefore, most respectfully prayed that this Hon’ble Court may graciously be pleased to grant anticipatory bail to the applicant in connection with [case details], in the interest of justice.
+
+Place: Ranchi  
+Date: [Date]  
+[Signature of Advocate for Applicant]
