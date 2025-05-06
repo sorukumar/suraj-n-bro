@@ -1,0 +1,38 @@
+Title: Criminal Bail Application
+Filename: bail_application.txt
+Body:
+
+IN THE HIGH COURT OF JHARKHAND AT RANCHI
+
+B.A. No. ____ of 2025
+
+In the matter of:
+[Applicant’s Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand … Applicant
+
+Versus
+
+The State of Jharkhand … Opposite Party
+
+APPLICATION FOR GRANT OF BAIL UNDER SECTION 439 CrPC
+
+To,
+The Hon’ble Mr. Justice [Name], High Court of Jharkhand at Ranchi.
+
+The humble application of the applicant above named:
+
+MOST RESPECTFULLY SHOWETH:
+
+1. That the applicant has been arrested in connection with [FIR No. ___ dated ___, P.S. ___, District ___] under Sections ___ of the Indian Penal Code.
+2. That the applicant is innocent and has been falsely implicated in the case due to [brief reason, e.g., enmity, mistaken identity, etc.].
+3. That the applicant has been in judicial custody since [date].
+4. That the investigation is complete and charge sheet has been submitted (or, investigation is in progress but applicant is cooperating).
+5. That the applicant undertakes not to tamper with evidence or influence witnesses.
+6. That the applicant has no criminal antecedents.
+7. That the applicant is a permanent resident of [address] and undertakes to be present before the court as and when required.
+
+PRAYER
+It is, therefore, most respectfully prayed that this Hon’ble Court may graciously be pleased to enlarge the applicant on bail in connection with [case details], in the interest of justice.
+
+Place: Ranchi  
+Date: [Date]  
+[Signature of Advocate for Applicant]
