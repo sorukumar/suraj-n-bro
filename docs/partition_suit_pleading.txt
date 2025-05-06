@@ -1,0 +1,32 @@
+Title: Plaint for Partition Suit
+Filename: partition_suit_pleading.txt
+Body:
+
+IN THE COURT OF THE CIVIL JUDGE, RANCHI
+
+Title Suit No. ____ of 2025
+
+Plaintiff: [Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand
+
+Versus
+
+Defendants: [Names & Addresses]
+
+PLAINT FOR PARTITION
+
+The plaintiff respectfully submits as under:
+
+1. That the plaintiff and defendants are members of a joint Hindu family and co-sharers in the ancestral property described in Schedule A annexed hereto.
+2. That the plaintiff is entitled to ___ share in the said property.
+3. That the defendants have refused to effect partition despite repeated requests.
+4. That the cause of action arose on [date] when the defendants denied the plaintiff’s share.
+
+PRAYER
+
+It is, therefore, prayed that this Hon’ble Court may be pleased to:
+a) Pass a preliminary decree for partition of the suit property and allotment of the plaintiff’s share by metes and bounds;
+b) Grant such other relief as deemed fit in the interest of justice.
+
+Place: Ranchi  
+Date: [Date]  
+[Signature of Advocate for Plaintiff]
