@@ -81,14 +81,15 @@ body {
 /* Enhanced GitHub link */
 .court-link i {
     color: var(--text-light);
-    width: 28px;  /* Slightly larger */
+    width: 28px;
     height: 28px;
     vertical-align: middle;
     transition: all 0.3s ease;
+    stroke-width: 1.5px;
 }
 
 .court-link:hover i {
-    color: var(--primary-color);
+    color: #8B0000; /* Dark red color for court theme */
     transform: translateY(-2px);
 }
 
