@@ -1,0 +1,23 @@
+// index.json
+{
+  "documents": [
+    {
+      "id": 1,
+      "title": "Getting Started with JavaScript",
+      "filename": "doc1.txt",
+      "body": "JavaScript is a versatile programming language primarily used for web development. It allows you to create interactive and dynamic websites. Learn about variables, functions, and control flow to begin your journey in JavaScript programming."
+    },
+    {
+      "id": 2,
+      "title": "Introduction to HTML5",
+      "filename": "doc2.txt",
+      "body": "HTML5 is the latest version of the Hypertext Markup Language. It introduces semantic elements like header, nav, and footer, making web pages more structured and meaningful. Discover how to create modern, accessible websites using HTML5."
+    },
+    {
+      "id": 3,
+      "title": "CSS Fundamentals",
+      "filename": "doc3.txt",
+      "body": "Cascading Style Sheets (CSS) is the language used to style web pages. Learn about selectors, properties, and values to control the visual appearance of HTML elements. Master layouts, colors, typography, and responsive design."
+    }
+  ]
+}
