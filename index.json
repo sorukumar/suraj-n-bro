@@ -2,21 +2,63 @@
   "documents": [
     {
       "id": 1,
-      "title": "Getting Started with JavaScript",
-      "filename": "doc1.txt",
-      "body": "JavaScript is a versatile programming language primarily used for web development. It allows you to create interactive and dynamic websites. Learn about variables, functions, and control flow to begin your journey in JavaScript programming."
+      "title": "Writ Petition under Article 226 of the Constitution of India",
+      "filename": "writ_petition_article226.txt",
+      "body": "IN THE HIGH COURT OF JHARKHAND AT RANCHI\n\nW.P. (C) No. ____ of 2025\n\nIn the matter of:\n[Petitioner’s Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand … Petitioner\n\nVersus\n\n1. The State of Jharkhand, through the Chief Secretary, Government of Jharkhand, Project Bhawan, Dhurwa, Ranchi.\n2. [Other Respondents as necessary] … Respondents\n\nWRIT PETITION UNDER ARTICLE 226 OF THE CONSTITUTION OF INDIA"
     },
     {
       "id": 2,
-      "title": "Introduction to HTML5",
-      "filename": "doc2.txt",
-      "body": "HTML5 is the latest version of the Hypertext Markup Language. It introduces semantic elements like header, nav, and footer, making web pages more structured and meaningful. Discover how to create modern, accessible websites using HTML5."
+      "title": "Criminal Bail Application",
+      "filename": "bail_application.txt",
+      "body": "IN THE HIGH COURT OF JHARKHAND AT RANCHI\n\nB.A. No. ____ of 2025\n\nIn the matter of:\n[Applicant’s Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand … Applicant\n\nVersus\n\nThe State of Jharkhand … Opposite Party\n\nAPPLICATION FOR GRANT OF BAIL UNDER SECTION 439 CrPC"
     },
     {
       "id": 3,
-      "title": "CSS Fundamentals",
-      "filename": "doc3.txt",
-      "body": "Cascading Style Sheets (CSS) is the language used to style web pages. Learn about selectors, properties, and values to control the visual appearance of HTML elements. Master layouts, colors, typography, and responsive design."
+      "title": "Anticipatory Bail Application",
+      "filename": "anticipatory_bail.txt",
+      "body": "IN THE HIGH COURT OF JHARKHAND AT RANCHI\n\nA.B.A. No. ____ of 2025\n\nIn the matter of:\n[Applicant’s Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand … Applicant\n\nVersus\n\nThe State of Jharkhand … Opposite Party\n\nAPPLICATION FOR ANTICIPATORY BAIL UNDER SECTION 438 CrPC"
+    },
+    {
+      "id": 4,
+      "title": "Affidavit in Support of Petition",
+      "filename": "affidavit_in_support.txt",
+      "body": "IN THE HIGH COURT OF JHARKHAND AT RANCHI\n\nAFFIDAVIT\n\nI, [Name], son/daughter of [Father’s Name], aged about ___ years, resident of [Full Address], District – [Name], Jharkhand, do hereby solemnly affirm and state as under:"
+    },
+    {
+      "id": 5,
+      "title": "Legal Notice for Recovery of Money",
+      "filename": "legal_notice_recovery.txt",
+      "body": "From:\n[Your Name & Address]\nAdvocate\n\nTo,\n[Debtor’s Name & Address]\n\nDate: [Date]\n\nSubject: Legal Notice for Recovery of Rs. [Amount]\n\nSir/Madam,\n\nUnder instructions from and on behalf of my client, [Client’s Name], I hereby serve you this legal notice as follows:"
+    },
+    {
+      "id": 6,
+      "title": "Plaint for Partition Suit",
+      "filename": "partition_suit_pleading.txt",
+      "body": "IN THE COURT OF THE CIVIL JUDGE, RANCHI\n\nTitle Suit No. ____ of 2025\n\nPlaintiff: [Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand\n\nVersus\n\nDefendants: [Names & Addresses]\n\nPLAINT FOR PARTITION"
+    },
+    {
+      "id": 7,
+      "title": "Petition for Maintenance under Section 125 CrPC",
+      "filename": "maintenance_petition.txt",
+      "body": "IN THE COURT OF THE JUDICIAL MAGISTRATE, RANCHI\n\nCase No. ____ of 2025\n\nPetitioner: [Name], wife/child/parent of [Name], resident of [Full Address], District – [Name], Jharkhand\n\nVersus\n\nRespondent: [Name], resident of [Full Address], District – [Name], Jharkhand\n\nPETITION UNDER SECTION 125 CrPC FOR MAINTENANCE"
+    },
+    {
+      "id": 8,
+      "title": "Complaint under Section 138 NI Act (Cheque Bounce)",
+      "filename": "cheque_bounce_complaint.txt",
+      "body": "IN THE COURT OF THE JUDICIAL MAGISTRATE, RANCHI\n\nCase No. ____ of 2025\n\nComplainant: [Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand\n\nVersus\n\nAccused: [Name], resident of [Full Address], District – [Name], Jharkhand\n\nCOMPLAINT UNDER SECTION 138 OF THE NEGOTIABLE INSTRUMENTS ACT, 1881"
+    },
+    {
+      "id": 9,
+      "title": "Consumer Complaint before District Forum",
+      "filename": "consumer_complaint.txt",
+      "body": "BEFORE THE DISTRICT CONSUMER DISPUTES REDRESSAL FORUM, RANCHI\n\nComplaint No. ____ of 2025\n\nComplainant: [Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand\n\nVersus\n\nOpposite Party: [Name/Company], [Address]\n\nCONSUMER COMPLAINT UNDER SECTION 12 OF THE CONSUMER PROTECTION ACT, 2019"
+    },
+    {
+      "id": 10,
+      "title": "Memorandum of Appeal to High Court",
+      "filename": "appeal_high_court.txt",
+      "body": "IN THE HIGH COURT OF JHARKHAND AT RANCHI\n\nAppeal No. ____ of 2025\n\nAppellant: [Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand\n\nVersus\n\nRespondent: [Name], resident of [Full Address], District – [Name], Jharkhand\n\nMEMORANDUM OF APPEAL UNDER SECTION [Relevant Section]"
     }
   ]
 }
