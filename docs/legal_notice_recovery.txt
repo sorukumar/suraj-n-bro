@@ -1,0 +1,30 @@
+Title: Legal Notice for Recovery of Money
+Filename: legal_notice_recovery.txt
+Body:
+
+From:  
+[Your Name & Address]  
+Advocate
+
+To,  
+[Debtor’s Name & Address]
+
+Date: [Date]
+
+Subject: Legal Notice for Recovery of Rs. [Amount]
+
+Sir/Madam,
+
+Under instructions from and on behalf of my client, [Client’s Name], I hereby serve you this legal notice as follows:
+
+1. That you had taken a sum of Rs. [Amount] from my client on [Date] as a friendly loan/advance, promising to repay the same within [period].
+2. That despite repeated requests and reminders, you have failed to repay the said amount.
+3. That my client is entitled to recover the said amount along with interest @ [rate]% per annum from you.
+
+You are hereby called upon to pay the aforesaid amount within 15 days from the date of receipt of this notice, failing which my client shall be constrained to initiate appropriate legal proceedings against you before the competent court at your risk as to costs and consequences.
+
+This is without prejudice to all other rights and remedies available to my client.
+
+Yours faithfully,  
+[Signature]  
+[Advocate’s Name]
