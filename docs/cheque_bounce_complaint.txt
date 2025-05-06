@@ -1,0 +1,30 @@
+Title: Complaint under Section 138 NI Act (Cheque Bounce)
+Filename: cheque_bounce_complaint.txt
+Body:
+
+IN THE COURT OF THE JUDICIAL MAGISTRATE, RANCHI
+
+Case No. ____ of 2025
+
+Complainant: [Name], son/daughter of [Father’s Name], resident of [Full Address], District – [Name], Jharkhand
+
+Versus
+
+Accused: [Name], resident of [Full Address], District – [Name], Jharkhand
+
+COMPLAINT UNDER SECTION 138 OF THE NEGOTIABLE INSTRUMENTS ACT, 1881
+
+The complainant respectfully submits as under:
+
+1. That the accused issued cheque no. ___ dated ___ for Rs. ___ drawn on [Bank Name], in discharge of a legally enforceable debt.
+2. That the said cheque was presented for encashment but was dishonoured on [date] with the remark “insufficient funds.”
+3. That the complainant issued a legal notice dated ___, but the accused failed to make payment within 15 days.
+4. That the cause of action arose on [date] within the jurisdiction of this Hon’ble Court.
+
+PRAYER
+
+It is, therefore, prayed that this Hon’ble Court may be pleased to take cognizance of the offence and punish the accused as per law.
+
+Place: Ranchi  
+Date: [Date]  
+[Signature of Advocate for Complainant]
