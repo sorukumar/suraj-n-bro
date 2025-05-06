@@ -79,7 +79,7 @@ body {
 }
 
 /* Enhanced GitHub link */
-.github-link i {
+.court-link i {
     color: var(--text-light);
     width: 28px;  /* Slightly larger */
     height: 28px;
@@ -87,7 +87,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.github-link:hover i {
+.court-link:hover i {
     color: var(--primary-color);
     transform: translateY(-2px);
 }
