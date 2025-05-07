@@ -77,7 +77,27 @@ body {
     align-items: center;
     gap: 1.5rem;
 }
+.nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
 
+.nav-link:hover,
+.nav-link:focus {
+    background: var(--primary-color);
+    color: #fff;
+    outline: none;
+}
+
+.legal-insights-link {
+    background: #f3f3f3;
+    border: 1px solid #eaeaea;
+}
 /* Court link styles */
 .court-link i {
     color: var(--text-light);
