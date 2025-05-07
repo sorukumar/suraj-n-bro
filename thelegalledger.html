@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj & Bro Insights: Legal Trends, Data, and Patterns</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="/" class="logo">
+                <img src="assets/logo.png" alt="Suraj & Bro Logo">
+            </a>
+            <div class="nav-links">
+                <a href="thelegalledger.html" class="nav-link legal-insights-link">Legal Insights</a>
+                <a href="https://jharkhandhighcourt.nic.in" class="court-link" target="_blank" aria-label="Jharkhand High Court">
+                    <i data-feather="award"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="search-header">
+            <h1>Suraj & Bro Insights: Legal Trends, Data, and Patterns</h1>
+            <p class="subtitle">Analysis of Case Categories in Jharkhand High Court and Ranchi Civil District Courts (2023–2024)</p>
+        </div>
+        <section style="max-width:900px;margin:2rem auto;">
+            <h2 style="font-size:1.4rem;color:var(--primary-color);margin-bottom:1rem;">Jharkhand High Court (2024 Data)</h2>
+            <div style="display:flex;flex-wrap:wrap;gap:2rem;">
+                <div style="flex:1;min-width:280px;">
+                    <h3 style="font-size:1.1rem;margin-bottom:0.5rem;">Civil Cases (35,435 pending)</h3>
+                    <canvas id="jhc-civil-chart" height="220"></canvas>
+                </div>
+                <div style="flex:1;min-width:280px;">
+                    <h3 style="font-size:1.1rem;margin-bottom:0.5rem;">Criminal Cases (44,930 pending)</h3>
+                    <canvas id="jhc-criminal-chart" height="220"></canvas>
+                </div>
+            </div>
+            <div style="margin-top:2rem;">
+                <strong>Clearance Rate (Jan–Apr 2024):</strong>
+                <ul style="margin:0.5rem 0 1rem 1.5rem;">
+                    <li>Civil: <b>176.59%</b> (6,942 disposed vs. 3,931 instituted)</li>
+                    <li>Criminal: <b>123.34%</b> (12,286 disposed vs. 9,961 instituted)</li>
+                    <li>Overall pendency reduced by <b>6.11%</b> in 4 months</li>
+                </ul>
+            </div>
+            <h2 style="font-size:1.4rem;color:var(--primary-color);margin:2.5rem 0 1rem;">Ranchi Civil District Courts (2023 Data)</h2>
+            <div style="display:flex;flex-wrap:wrap;gap:2rem;">
+                <div style="flex:1;min-width:280px;">
+                    <h3 style="font-size:1.1rem;margin-bottom:0.5rem;">Civil Cases (87,294 pending)</h3>
+                    <canvas id="ranchi-civil-chart" height="220"></canvas>
+                </div>
+                <div style="flex:1;min-width:280px;">
+                    <h3 style="font-size:1.1rem;margin-bottom:0.5rem;">Criminal Cases (4.2 lakh pending)</h3>
+                    <canvas id="ranchi-criminal-chart" height="220"></canvas>
+                </div>
+            </div>
+            <div style="margin-top:2rem;">
+                <strong>Pendency Trends:</strong>
+                <ul style="margin:0.5rem 0 1rem 1.5rem;">
+                    <li>Over <b>5.1 lakh</b> total pending cases (as of March 2023), with criminal cases dominating (~82%)</li>
+                    <li>Fast-track courts disposed of <b>7,813</b> cases in 2023, focusing on POCSO and senior citizen disputes</li>
+                </ul>
+            </div>
+            <h2 style="font-size:1.2rem;color:var(--primary-color);margin:2.5rem 0 1rem;">Key Insights for New Lawyers</h2>
+            <ul style="margin:0.5rem 0 1rem 1.5rem;">
+                <li><b>High Court Focus:</b> Prioritize procedural efficiency in writ petitions and bail applications. Familiarize yourself with NJDG tools for tracking case lifecycles.</li>
+                <li><b>District Court Realities:</b> Criminal law practice is volume-heavy; civil practice requires negotiation skills for property/family disputes.</li>
+                <li><b>Emerging Areas:</b> Cybercrime (rising 15% annually) and commercial arbitration are growth sectors in both courts.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            In loving memory of Suraj • 
+            <a href="https://github.com/sorukumar/suraj-n-bro" target="_blank" rel="noopener noreferrer">GitHub</a> •
+            <a href="contributors.html">Brother &amp; Kins</a>
+        </p>
+    </footer>
+    <script>
+        feather.replace();
+
+        // Chart.js minimalist theme
+        const chartOptions = {
+            plugins: {
+                legend: { display: false },
+                tooltip: { enabled: true }
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { display: false },
+                y: { display: false }
+            }
+        };
+
+        // Jharkhand High Court Civil
+        new Chart(document.getElementById('jhc-civil-chart').getContext('2d'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Writ Petitions', 'Regular Civil Appeals', 'Commercial Disputes', 'Misc. Applications'],
+                datasets: [{
+                    data: [62, 22, 10, 6],
+                    backgroundColor: ['#8B0000', '#F7931A', '#4A4A4A', '#e0e0e0'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                ...chartOptions,
+                cutout: '70%',
+            }
+        });
+
+        // Jharkhand High Court Criminal
+        new Chart(document.getElementById('jhc-criminal-chart').getContext('2d'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Bail Applications', 'Criminal Appeals', 'Criminal Misc. Petitions', 'Special Act Cases'],
+                datasets: [{
+                    data: [45, 35, 15, 5],
+                    backgroundColor: ['#8B0000', '#F7931A', '#4A4A4A', '#e0e0e0'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                ...chartOptions,
+                cutout: '70%',
+            }
+        });
+
+        // Ranchi Civil District Courts Civil
+        new Chart(document.getElementById('ranchi-civil-chart').getContext('2d'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Property Disputes', 'Family Law', 'Contractual Disputes', 'Succession Certificates'],
+                datasets: [{
+                    data: [40, 25, 20, 15],
+                    backgroundColor: ['#8B0000', '#F7931A', '#4A4A4A', '#e0e0e0'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                ...chartOptions,
+                cutout: '70%',
+            }
+        });
+
+        // Ranchi Civil District Courts Criminal
+        new Chart(document.getElementById('ranchi-criminal-chart').getContext('2d'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Theft & Assault', 'Domestic Violence', 'SC/ST Act Cases', 'Special Laws'],
+                datasets: [{
+                    data: [50, 20, 15, 10],
+                    backgroundColor: ['#8B0000', '#F7931A', '#4A4A4A', '#e0e0e0'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                ...chartOptions,
+                cutout: '70%',
+            }
+        });
+    </script>
+</body>
+</html>
